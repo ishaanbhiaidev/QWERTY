@@ -1,0 +1,44 @@
+{
+  "name": "Leaf & Fork - Healthy Food Delivery",
+  "short_name": "Leaf & Fork",
+  "description": "Order healthy food online with transparent calorie counts. Fresh organic meals delivered fast.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["food", "health", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Order Healthy Food",
+      "short_name": "Order",
+      "description": "Browse and order healthy meals",
+      "url": "/menu",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Track Order",
+      "short_name": "Track",
+      "description": "Track your healthy food delivery",
+      "url": "/track",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
